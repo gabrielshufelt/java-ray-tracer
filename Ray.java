@@ -1,6 +1,7 @@
 package raytracer;
 
 public class Ray {
+	// a ray object takes in a origin and direction vector
 	public Vector o, d;
 	public Ray(Vector o, Vector d) {this.o = o;	this.d = d;}
 	public Ray add(Ray r) {return new Ray(o.add(r.o), d.add(r.d));}
