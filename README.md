@@ -1,5 +1,4 @@
 # java-ray-tracer
-# developed by Gabriel Shufelt
 
 This program simulates a scene with a sphere in the middle, lit by global illumination and a point light source.
 Although not very complex, it is an effective ray tracer, that is easy to build on. At its core, it uses Lambertian 
